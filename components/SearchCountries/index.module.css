@@ -1,0 +1,41 @@
+.title {
+	text-align: center;
+	font-size: 30px;
+	padding: 50px 0;
+}
+
+.filters {
+	padding-bottom: 50px;
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+}
+
+.countryList {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 20px;
+}
+
+.countryListItem {
+	border-radius: 4px;
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	border: 1px solid #ccc;
+}
+
+.selected {
+	background-color: green;
+	border-radius: 4px;
+}
+
+.input {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	outline: 0;
+}
